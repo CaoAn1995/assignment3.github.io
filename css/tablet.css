@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .grid-job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  #muc-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aquamarine;
+    justify-items: stretch;
+  }
+  .prize {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    grid-row: 1fr 1fr;
+  }
+  .prize-web1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+  }
+  .prize-web2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hinhnen {
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  #Anh {
+    width: auto;
+    height: auto;
+  }
+}

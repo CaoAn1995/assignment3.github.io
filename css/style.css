@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 30px;
+}
+body {
+  line-height: 1.6;
+}
+/* .navbar-img {
+  border-radius: 50%;
+  border: 15px solid #fff;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  position: absolute;
+} */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+a {
+  text-decoration: none;
+}
+section > .container {
+}
+
+#nav-bar {
+  text-align: center;
+}
+#navbar {
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
+.grid-job-info {
+  gap: 20px;
+  row-gap: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+#exp {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 40px 10px 30px 40px;
+}
+#exp-text {
+  padding: 30px 0px 0px 30px;
+}
+#icon {
+  font-size: 45px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  left: -25px;
+  width: 10px;
+  height: 10px;
+  background: rgba(97, 123, 227, 1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(97, 123, 227, 0.2);
+}
+#button {
+  border-radius: 10px;
+  font-size: 13px;
+}
+#exp-icon {
+  display: flex;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-content: space-between;
+  padding: 60px 30px 50px 30px;
+  text-align: center;
+  gap: 5px;
+}
+#exp-icon i {
+  font-size: 25px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  padding-top: 10px;
+}
+.language {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.language-1 {
+  text-align: left;
+}
+.language-span {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+.language-span-silver {
+  background: #ced4da;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+.prize {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+#prize {
+  border-top: 2px solid #d6c08d;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+#prize-1 {
+  border-right: 2px solid #d6c08d;
+  padding-left: 50px;
+}
+#prize-1 p {
+  color: #495057;
+}
+#Anh {
+  width: 200px;
+  height: 150px;
+}
+#text-color p {
+  color: #495057;
+}
+#CV-3 p {
+  padding-left: 5px;
+}
+#CV-3 {
+  align-items: center;
+  padding-left: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ced4da;
+}
+#CV-3 i {
+  padding-left: 10px;
+  padding-top: 0;
+  font-size: 18px;
+}
+#CV-3 button {
+  border-radius: 20px;
+  padding: auto;
+}
+.CV {
+  border: 1px solid #ced4da;
+}
+.CV p {
+  color: #495057;
+}
+.CV h5 {
+  border-bottom: 1px solid #ced4da;
+}
+.mota {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  border-bottom: 1px solid #ced4da;
+}
+#footer ul li i {
+  color: #199cdb;
+}
+#footer-1 p {
+  align-self: center;
+  margin: 0;
+  color: #868e96;
+}
+/* TABLETS */
+@media (max-width: 768px) {
+  .grid-job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hinhnen {
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  #prize-1 {
+    border-right: none;
+    padding-left: 0px;
+  }
+  #prize1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .prize-web2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #d6c08d;
+  }
+  .prize-web1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+  }
+  .prize-web3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+  }
+  .muc-6 {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #Anh {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .grid-job-info {
+    grid-template-columns: 1fr;
+  }
+  .prize {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0;
+  }
+  #prize-1 {
+    border: none;
+  }
+  .prize-web2 {
+    border-top: 2px solid #d6c08d;
+  }
+  .prize-web3 {
+    padding-bottom: 50px;
+  }
+  .prize-web1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+  }
+  .prize-web2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+  }
+  .prize-web3 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  #prize {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  #Anh {
+    width: 100%;
+    height: 100%;
+  }
+  .hinhnen {
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .muc-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #prize1 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+}
